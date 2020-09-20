@@ -3,6 +3,7 @@
 using namespace std;
 class heap{
     vector<int> A;
+    //creating heap with 0
     int parent(int i){
         return (i-1)/2;
     }
